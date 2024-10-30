@@ -1,0 +1,124 @@
+.light-theme .crypto-select {
+    background-color: #f9f9f9 !important; 
+    border: 1px solid #ddd !important;
+    color: #333 !important;
+    background: #f9f9f9 url(data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23555%22%2F%3E%3C%2Fsvg%3E) no-repeat right 15px top 55%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.dark-theme .crypto-select {
+    background-color: #555 !important; 
+    border: 1px solid #555 !important;
+    color: #eee !important;
+    background: #555 url(data:image/svg+xml;charset=US-ASCII,%3Csvg%20width%3D%2220%22%20height%3D%2220%22%20xmlns%3D%22http%3A%2F%2Fwww.w3.org%2F2000%2Fsvg%22%3E%3Cpath%20d%3D%22M5%206l5%205%205-5%202%201-7%207-7-7%202-1z%22%20fill%3D%22%23fff%22%2F%3E%3C%2Fsvg%3E) no-repeat right 15px top 55%;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+}
+
+.light-theme .crypto-address-field input {
+    background-color: #f9f9f9 !important;
+    border: 1px solid #ddd !important;
+    color: #333;
+}
+
+.dark-theme .crypto-address-field input {
+    background-color: #555 !important;
+    border: 1px solid #555 !important;
+    color: #eee;
+}
+
+.light-theme .crypto-address-field .copy-icon,
+.light-theme .crypto-address-field .done-icon {
+    fill: #333;
+}
+
+.dark-theme .crypto-address-field .copy-icon,
+.dark-theme .crypto-address-field .done-icon {
+    fill: #eee;
+}
+
+.crypto-support-box {
+    max-width: 500px;
+    margin: 0 auto;
+}
+
+.crypto-option {
+    text-align: center;
+}
+
+.crypto-option img {
+    margin-bottom: 0px !important;
+}
+
+.crypto-option h3 {
+    margin-bottom: 5px;
+}
+
+.crypto-option p {
+    font-size: 14px;
+    word-break: break-all;
+}
+.crypto-option img,
+.crypto-option div[id^="qrcode-"] {
+    display: inline-block;
+    width: 200px;
+    height: 200px;
+    margin: 0 auto;
+}
+
+.crypto-option div[id^="qrcode-"] canvas {
+    width: 200px !important;
+    height: 200px !important;
+}
+.crypto-select {
+    max-width: 300px !important;
+    line-height: 30px !important;
+    padding: 10px 20px !important; 
+    margin: auto;
+    border: 1px solid #ddd !important;
+    border-radius: 100px !important;
+    font-size: 14px;
+    margin-bottom: 15px !important;
+    min-width: 150px !important;
+    background-position: calc(100% - 10px) center;
+}
+
+.crypto-address-field {
+    max-width: 500px  !important;
+    display: flex;
+    align-items: center;
+    margin-top: 15px !important;
+    margin-bottom: 10px !important;
+    border: none;
+}
+.crypto-support-box .crypto-address-field input {
+    line-height: 30px !important;
+    padding: 10px 20px !important; 
+    flex-grow: 1;
+    font-size: 14px;
+    border-radius: 100px !important;
+    margin-right: 10px;
+    margin-bottom: 0px !important;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.copy-address-button {
+    background:none;
+    border: none;
+    border-radius: 50%;
+    cursor: pointer;
+    padding: 4px;
+}
+
+.copy-address-button svg {
+    display: block;
+}
+
+.suggested-donation {
+    margin-top: 10px;
+    font-size: 14px;
+    color: #000;
+}
